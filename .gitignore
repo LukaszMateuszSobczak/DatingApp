@@ -93,6 +93,25 @@ node_modules/
 bower_components/
 wwwroot/lib/
 
+# ---- Angular client (client/) ----
+client/node_modules/
+client/dist/
+client/.angular/
+client/.cache/
+client/.eslintcache
+client/coverage/
+client/.nx/
+client/.tmp/
+client/.vite/
+client/.vite-cache/
+client/.parcel-cache/
+client/.pnpm-debug.log*
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/.env.local
+client/.env.*.local
+
 # ---- ASP.NET Core configuration ----
 # Keep appsettings.json, ignore dev-specific variants
 **/appsettings.Development.json
