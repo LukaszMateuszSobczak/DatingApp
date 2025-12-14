@@ -1,0 +1,112 @@
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.lnk
+
+# ---- Visual Studio ----
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# ---- Build results ----
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+bld/
+[Ll]og/
+[Ll]ogs/
+[Tt]est[Rr]esults/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# ---- MSBuild & analysis caches ----
+*.cache
+*.tlog
+*.lastcodeanalysissucceeded
+*.CodeAnalysisLog.xml
+
+# ---- Rider / ReSharper ----
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ---- NuGet ----
+*.nupkg
+# NuGet packages folder can be restored
+packages/
+!**/packages/build/
+!**/packages/repositories.config
+.nuget/NuGet.Config
+.nuget/packages.config
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ---- Publishing ----
+*.pubxml
+*.pubxml.user
+*.publishsettings
+PublishProfiles/
+publish/
+
+# ---- Azure ----
+*.azurePubxml
+*.azurePubxml.user
+
+# ---- VS Code ----
+.vscode/
+
+# ---- Databases ----
+*.mdf
+*.ldf
+*.ndf
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+
+# ---- User secrets / env ----
+secrets.json
+.env
+.env.*.local
+.env.local
+
+# ---- Test / Coverage ----
+*.coverage
+*.coveragexml
+coverage/
+
+# ---- Web tooling ----
+node_modules/
+bower_components/
+wwwroot/lib/
+
+# ---- ASP.NET Core configuration ----
+# Keep appsettings.json, ignore dev-specific variants
+**/appsettings.Development.json
+**/appsettings.*.Development.json
+
+# ---- Misc ----
+*.svclog
+*.pidb
+*.scc
+StyleCop.Cache
+NCrunch*/
+.*crunch*.local.xml
+
+# ---- JetBrains Rider cache ----
+.sln.iml
+
+# End of file
